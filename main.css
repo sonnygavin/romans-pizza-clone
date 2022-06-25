@@ -1,0 +1,73 @@
+/* Remove Default Browser CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.font-size-14 {
+    font-size: 14;
+    font-weight: 500;
+}
+
+.font-size-12 {
+    font-size: 12;
+    font-weight: 500;
+}
+
+.romans-pizza-logo {
+    height: 7%;
+    width: 7%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Call to Action Cards Section */
+
+.call-to-action {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 0px;
+    grid-auto-flow: column;
+}
+
+.card-item {
+    height: 157px;
+}
+
+
+/* Styling Classes */
+
+.center-align-text {
+    text-align: center;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.bg-color-lightgray {
+    background-color: #222222;
+}
+
+.bg-color-darkgray {
+    background-color: #000;
+}
+
+.bg-color-lightblue {
+    background-color: #00559F;
+}
+
+.bg-color-darkblue {
+    background-color: #196BB3;
+}
