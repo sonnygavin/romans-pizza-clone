@@ -19,6 +19,9 @@
 
     <!-- Import Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Import Font Awesome  -->
+    <script src="https://kit.fontawesome.com/ffdc991cf1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,11 +45,11 @@
                     <a class="nav-link active text-color-white fw-900" aria-current="page" href="#">ORDER ONLINE</a>
                     <a class="nav-link text-color-white fw-900" href="#">FRANCHISE</a>
                     <a class="nav-link text-color-white fw-900" href="#">FIND A STORE</a>
+                    <div class="float-right">
+                        <button type="button" class="btn btn-dark fw-900"><i class="fa-solid fa-user"></i> LOGIN</button>
+                        <button type="button" class="btn btn-outline-danger fw-900 text-color-white">SIGN UP</button>
+                    </div>
                 </div>
-            </div>
-            <div class="">
-                <button type="button" class="btn btn-dark">LOGIN</button>
-                <button type="button" class="btn btn-outline-dark">SIGN UP</button>
             </div>
         </div>
     </nav>
@@ -55,14 +58,17 @@
     <section class="call-to-action">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img src="card-stack-one.png" alt="">
+                <div class="column-one col-sm-12 col-md-4 col-lg-4">
+                    <h3 class="text-color-white fs-30">ORDER ONLINE</h3>
+                    <!-- <img src="card-stack-one.png" alt=""> --><br>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img src="card-stack-two.png" alt="">
+                <div class="column-two col-sm-12 col-md-4 col-lg-4">
+                    <h3 class="text-color-white fs-30">VIEW MENU</h3>
+                    <!-- <img src="card-stack-two.png" alt=""> --><br>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img src="card-stack-three.png" alt="">
+                <div class="column-three col-sm-12 col-md-4 col-lg-4">
+                    <h3 class="text-color-white fs-30">TALK TO US</h3>
+                    <!-- <img src="card-stack-three.png" alt=""> --><br>
                 </div>
             </div>
         </div>
@@ -100,10 +106,10 @@
         <footer>
             <section class="footer-section text-color-white ">
                 <div class="top-footer bg-color-lightgray font-size-14">
-                    <p>Terms and Conditions<br>Franchise<br>Contact<br>Feedback</p>
-                </div>
-                <div class="bottom-footer center-align-text bg-color-darkgray">
-                    <p class="font-size-12">Copyright © 2022 Roman's Pizza. All rights reserved.</p>
+                    <div class="container pt-5 pb-5">
+                        <p>Terms and Conditions<br>Franchise<br>Contact<br>Feedback</p>
+                    </div>
+                    <p class="font-size-12 bottom-footer center-align-text bg-color-darkgray p-2">Copyright © 2022 Roman's Pizza. All rights reserved.</p>
                 </div>
             </section>
         </footer>
