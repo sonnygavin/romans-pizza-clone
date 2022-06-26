@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roman's Pizza | We Deliver Pizza Specials Near You</title>
+    <title>Gavin's Pizza | We Deliver Pizza Specials Near You</title>
 
     <!-- Import External CSS -->
     <link rel="stylesheet" href="main.css">
@@ -17,75 +17,96 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
 
-    <!-- Import Bootstrap CSS
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- Import Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
 
     <!-- Navigation Bar Section -->
-    <nav>
-        <section class="navigation-section">
-            <div class="bg-color-darkblue text-color-white">
-                <h1>Roman's Pizza</h1>
+    <div class="bg-color-darkblue">
+        <div class="container-fluid"><br>
+            <p class="text-color-white text-center">Mouth watering deals just a click away 🍕</p><br>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-color-lightblue text-color-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="romans-pizza-logo" src="romans-pizza-logo.png" alt="Roman's Pizza Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-color-white fw-900" aria-current="page" href="#">ORDER ONLINE</a>
+                    <a class="nav-link text-color-white fw-900" href="#">FRANCHISE</a>
+                    <a class="nav-link text-color-white fw-900" href="#">FIND A STORE</a>
+                </div>
             </div>
-            <ul>
-                <li class="brand-logo">
-                    <h1>Roman's Pizza</h1>
-                    <a href="index.html">
-                        <img class="romans-pizza-logo" src="romans-pizza-logo.png" alt="Roman's Pizza Logo" srcset="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">ORDER ONLINE</a>
-                </li>
-                <li>
-                    <a href="#">FRANCHISE</a>
-                </li>
-                <li>
-                    <a href="#">FIND A STORE</a>
-                </li>
-            </ul>
-            <div class="bg-color-lightblue text-color-white">
-                <h1>Roman's Pizza</h1>
-            </div>
-        </section>
+        </div>
     </nav>
 
     <!-- Call to Action Buttons Section -->
     <section class="call-to-action">
-        <div class="card-item">
-            <img src="card-stack-one.png" alt="">
-        </div>
-        <div class="card-item">
-            <img src="card-stack-two.png" alt="">
-        </div>
-        <div class="card-item">
-            <img src="card-stack-three.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="card-stack-one.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="card-stack-two.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="card-stack-three.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Slide Show Carousel Section -->
     <section class="slideshow-carousel bg-color-lightblue">
-        <div>
-            <img src="romans-pizza4.png" alt="">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="romans-pizza1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="romans-pizza2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="romans-pizza3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="romans-pizza4.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
+        <!-- </section> -->
 
-    <!-- Footer Section -->
-    <footer>
-        <section class="footer-section">
-            <div class="top-footer text-color-white bg-color-lightgray font-size-14">
-                <p>Terms and Conditions<br>Franchise<br>Contact<br>Feedback</p>
-            </div>
-            <div class="bottom-footer text-color-white center-align-text bg-color-darkgray">
-                <p class="font-size-12">Copyright © 2022 Roman's Pizza. All rights reserved.</p>
-            </div>
-        </section>
-    </footer>
+        <!-- Footer Section -->
+        <footer>
+            <section class="footer-section text-color-white ">
+                <div class="top-footer bg-color-lightgray font-size-14">
+                    <p>Terms and Conditions<br>Franchise<br>Contact<br>Feedback</p>
+                </div>
+                <div class="bottom-footer center-align-text bg-color-darkgray">
+                    <p class="font-size-12">Copyright © 2022 Roman's Pizza. All rights reserved.</p>
+                </div>
+            </section>
+        </footer>
 
-    <!-- Import Bootstrap JS Bundle
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+        <!-- Import Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

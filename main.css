@@ -1,28 +1,29 @@
 /* Remove Default Browser CSS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+/* * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+} */
 
 body {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif !important;
 }
 
 .font-size-14 {
-    font-size: 14;
-    font-weight: 500;
+    font-size: 14 !important;
+    font-weight: 500 !important;
 }
 
 .font-size-12 {
-    font-size: 12;
-    font-weight: 500;
+    font-size: 12 !important;
+    font-weight: 500 !important;
 }
 
 .romans-pizza-logo {
-    height: 7%;
-    width: 7%;
+    height: 45%;
+    width: 45%;
 }
 
 img {
@@ -34,11 +35,12 @@ img {
 /* Call to Action Cards Section */
 
 .call-to-action {
-    display: grid;
+    width: 100%;
+    /* display: grid;
     justify-content: center;
     align-content: center;
     gap: 0px;
-    grid-auto-flow: column;
+    grid-auto-flow: column; */
 }
 
 .card-item {
@@ -49,11 +51,16 @@ img {
 /* Styling Classes */
 
 .center-align-text {
-    text-align: center;
+    text-align: center !important;
+}
+
+.fw-900 {
+    font-weight: 900 !important;
+    font-size: 18px !important;
 }
 
 .text-color-white {
-    color: white;
+    color: white !important;
 }
 
 .bg-color-lightgray {
